@@ -16,7 +16,7 @@ public class WspolnotaMieszkaniowa {
             System.out.print("Wybierz opcję: ");
 
             int wybor = scanner.nextInt();
-            scanner.nextLine(); // Czyści bufor
+            scanner.nextLine(); 
 
             switch (wybor) {
                 case 1:
@@ -75,7 +75,7 @@ public class WspolnotaMieszkaniowa {
             System.out.print("Wybierz opcję: ");
 
             int wybor = scanner.nextInt();
-            scanner.nextLine(); // Czyści bufor
+            scanner.nextLine(); 
 
             switch (wybor) {
                 case 1:
