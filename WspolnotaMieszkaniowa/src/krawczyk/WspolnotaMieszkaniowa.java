@@ -1,4 +1,7 @@
 package krawczyk;
+
+import java.util.Scanner;
+
 public class WspolnotaMieszkaniowa {
 
     private static Scanner scanner = new Scanner(System.in);
@@ -16,7 +19,7 @@ public class WspolnotaMieszkaniowa {
             System.out.print("Wybierz opcję: ");
 
             int wybor = scanner.nextInt();
-            scanner.nextLine(); 
+            scanner.nextLine();
 
             switch (wybor) {
                 case 1:
@@ -75,7 +78,7 @@ public class WspolnotaMieszkaniowa {
             System.out.print("Wybierz opcję: ");
 
             int wybor = scanner.nextInt();
-            scanner.nextLine(); 
+            scanner.nextLine();
 
             switch (wybor) {
                 case 1:
