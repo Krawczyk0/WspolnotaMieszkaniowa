@@ -1,6 +1,6 @@
 package krawczyk;
 
-abstract class Osoba {
+abstract class Osoba implements Uzytkownik {
     protected String imie;
     protected String nazwisko;
     protected String login;
@@ -13,12 +13,9 @@ abstract class Osoba {
         this.haslo = haslo;
     }
 
-    public String getLogin() {
-        return login;
-    }
-
-    public boolean sprawdzHaslo(String haslo) {
-        return this.haslo.equals(haslo);
+    public boolean zaloguj(String login, String haslo) {
+        return this.login.equals(login) && this.haslo.equals(haslo);
     }
 }
+
 
